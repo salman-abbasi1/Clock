@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Clock - 12 Hour</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: cornflowerblue;
+      font-family: Arial, sans-serif;
+    }
+
+    .clock {
+      color: white;
+      font-size: 64px;
+      letter-spacing: 4px;
+      background: black;
+      padding: 30px 50px;
+      border-radius: 12px;
+    }
+
+    .ampm {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="clock">
+    <span id="time">00:00:00</span>
+    <span class="ampm" id="ampm">AM</span>
+  </div>
+
+  <script src="script.js">
+  </script>
+
+</body>
+</html>
